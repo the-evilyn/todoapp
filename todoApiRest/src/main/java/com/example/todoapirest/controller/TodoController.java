@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController              // Returns JSON responses
 @RequestMapping("/api/todos") // All endpoints start with /api/todos
-@CrossOrigin(origins = "http://localhost:4200") // Allow Angular to call us
+@CrossOrigin(origins = "*") // Allow Angular to call us
 @RequiredArgsConstructor
 public class TodoController {
 
